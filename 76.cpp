@@ -61,7 +61,7 @@ string code::script(string word, vector <int> code)
 int main()
 {
     code c1;
-    cout << "76.1" << endl;
+    cout << "76.1:" << endl;
     vector <string> s1;
     for (int i = 0; i < 6; i++) 
 	{
@@ -91,9 +91,9 @@ int main()
         c1.f2 >> prov;
         code2.push_back(prov);
     }
-    cout << "76.2" << endl;
+    cout << endl << "76.2:" << endl;
     cout << c1.script(s2, code2) << endl;
-    cout << "76.3" << endl;
+    cout << endl << "76.3:" << endl;
     string s3;
     c1.f3 >> s3;
     vector <int> code3;
@@ -105,5 +105,4 @@ int main()
     code3.push_back(3);
     cout << c1.unscript(s3, code3);
 }
-
 
